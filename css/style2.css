@@ -1,0 +1,106 @@
+@font-face{
+  src:url("../font/BMDOHYEON_ttf.ttf");
+  font-family:DOHYEON;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: DOHYEON;
+}
+
+.navibar #logo{
+  font-size: 20px;
+  float: left;
+  color: white;
+}
+
+.navibar li{
+  font-size: 14px;
+  list-style: none;
+  float: right;
+}
+
+.navibar li a{
+  text-decoration: none;
+  color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  float: right;
+}
+
+.navibar ul{
+  margin: 0;
+}
+
+.navibar{
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 30px;
+  line-height: 60px;
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+
+body{
+  background-color: white;
+}
+
+h1{
+  text-align: center;
+  font-size: 64px;
+  color: #58595b;
+  margin-top: 75px;
+  margin-bottom: 30px;
+}
+
+h2{
+  text-align: center;
+  font-size: 32px;
+  color: #58595b;
+  margin-bottom: 75px;
+}
+
+.boxbox{
+  width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box{
+  background-color: white;
+  text-align: center;
+  width: 300px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 50px;
+  overflow: hidden;
+  float: left;
+}
+
+.box .info{
+  padding: 20px;
+  text-align: center;
+}
+
+.box h3{
+  color: #58595b;
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.box p{
+  color: #58595b;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.box a{
+  color: #0000ee;
+  font-size: 16px;
+  text-decoration: none;
+}
