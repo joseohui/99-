@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar{
+  background-color: #353535;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 60px;
+  width: 100%;
+  height: 60px;
+}
+
+.navbar .logo{
+  font-size: 20px;
+  color: white;
+}
+
+.banner{
+  background-image: url('../images/main_img.jpg');
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 350px;
+}
+
+.info{
+  background-color: white;
+  width: 100%;
+  height: 320px;
+}
+
+.info .helper{
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.info .info-container{
+  padding-left: 65px;
+  padding-right: 65px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.info .label{
+  font-size: 16px;
+  color: #4a4a4a;
+}
+
+.info h2{
+  font-size: 20px;
+  color: #1b1b1b;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.info p{
+  font-size: 16px;
+  color: #7a7a7a;
+  margin: 0;
+}
+
+.img-div1{
+  background-image: url('../images/img1.jpg');
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  height: 385px;
+
+}
+
+.img-div2{
+  background-image: url('../images/img2.jpg');
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+}
+
+.img-div2 .helper{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.img-div2 a{
+  text-decoration: none;
+  vertical-align: middle;
+  color: white;
+  font-weight: bold;
+  border: 4px solid white;
+  padding: 9px 40px;
+  margin-
+}
+
+.img-div3{
+  background-image: url('../images/img3.jpg');
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  height: 200px;
+}
+
+@media (min-width:768px){
+  .col{
+    float: left;
+  }
+
+  .banner{
+    height: 562px;
+  }
+  .info{
+    height: 282px;
+  }
+  .img-div1{
+    width: 50%;
+    height: 360px;
+  }
+  .img-div2{
+    width: 50%;
+    height: 180px;
+  }
+  .img-div3{
+    width: 50%;
+    height: 180px;
+  }
+}
+
+@media (min-width:992px){
+  .col{
+    float: left;
+  }
+
+  .banner{
+    width: 50%;
+    height: 700px;
+  }
+  .info{
+    width: 50%;
+    height: 350px;
+  }
+  .img-div1{
+    width: 25%;
+    height: 350px;
+  }
+  .img-div2{
+    width: 25%;
+    height: 175px;
+  }
+  .img-div3{
+    width: 25%;
+    height: 175px;
+  }
+}
